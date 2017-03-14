@@ -1,3 +1,5 @@
+# Stephen Jones
+
 #Homework 2 :  Discrete-Event Simulation Assignment
 
 ## IDS6938-Simulation Techniques - [University of Central Florida](http://www.ist.ucf.edu/grad/)
@@ -7,8 +9,7 @@ This is the framework for homework #2.
 
 The assignment is due: **Tuesday, March 28 at 11:59PM (EST)**
 
-asdfasdf
-sadfsad
+
 
 
 # Introduction
@@ -35,6 +36,9 @@ We looked at different ways to generate [pseudo-random numbers](https://en.wikip
 * **(b) - 2pts:**  Vary *N* (amount of samples). How do things change.
 * **(c) - 3pts:** Fix a random engine of your choice from part (a), and now vary five different [distributions](http://www.cplusplus.com/reference/random/) for just the psedo-random numbers. Again, analyze your results with graphs and statistics of choice.
 * **(d)- 4pts:** Generate random numbers in two-dimensions for a unit square. Plot the results for the different random number engines. The vertical axis should vary N in increasing order. The horizontal axis should show of the random number engines.
+
+![](images/mt19937_64.PNG?raw=true) 
+
 * **(e)- 4pts:** Generate random numbers in two-dimensions for a unit square. Plot the results for the different distributions. The vertical axis should vary N in increasing order. The horizontal axis should show of the random number engines. (See [Random Numbers Webcourse page](https://webcourses.ucf.edu/courses/1246518/pages/random-numbers?module_item_id=10541423) for a rough idea what you should produce.)
 * **(f)- 4pts:** Repeat parts (d) and (e) with a unit circle.
 
@@ -42,9 +46,6 @@ We looked at different ways to generate [pseudo-random numbers](https://en.wikip
 
 We all love board games. A board game can be viewed mathematically as a Markov chain, where the probability of moving to the next position depends only on the position you are currently at and the chances provided by tossing a dice. For this part of the homework we will simulate the game "*Snakes and Ladders*" (This goes by other names: Chutes and Ladders, Moksha Patam but all essentially the same gameplay.)
 
-| Moksha Patam  | Snakes and Ladders |
-| ------------- | ------------- |
-| ![](images/snake1.jpg?raw=true)  | ![](images/snake2.jpg?raw=true) |
 
 ##### Background
 The classic game has 100 positions on the board. You toss one die, and move squares based on the result of the die. If you land on a ladder you move up the ladder to a higher numbered square. If you land on a snake's mouth, you descend to a lower numbered square. For purposes of simulation, we will add one extra square 0 (starting position). So there are 101 positions on the board.
