@@ -39,6 +39,14 @@ We looked at different ways to generate [pseudo-random numbers](https://en.wikip
 
 ![](images/mt19937_64.PNG?raw=true) 
 
+![](images/minstd_rand0.PNG?raw=true) 
+
+![](images/ranlux24.PNG?raw=true) 
+
+![](images/knuth_b.PNG?raw=true) 
+
+![](images/default_random_engine.PNG?raw=true) 
+
 * **(e)- 4pts:** Generate random numbers in two-dimensions for a unit square. Plot the results for the different distributions. The vertical axis should vary N in increasing order. The horizontal axis should show of the random number engines. (See [Random Numbers Webcourse page](https://webcourses.ucf.edu/courses/1246518/pages/random-numbers?module_item_id=10541423) for a rough idea what you should produce.)
 * **(f)- 4pts:** Repeat parts (d) and (e) with a unit circle.
 
